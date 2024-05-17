@@ -45,7 +45,7 @@ const Loading = () => {
         <Typography
           data-aos="fade-up"
           data-aos-delay="100"
-          sx={{ fontSize: "30px", fontWeight: "bold" }}
+          sx={{ fontSize: "30px", fontWeight: "bold", marginLeft: "10px" }}
         >
           Portofolio
         </Typography>
