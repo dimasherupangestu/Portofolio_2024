@@ -25,9 +25,11 @@ export default function TransitionsModal(item: any) {
           data-aos-delay="400"
           // className="project-card"
           sx={{
-            width: "24rem",
+            width: "26rem",
             height: "90%",
             display: "flex",
+            flexDirection: "column",
+            mx: "auto",
             justifyContent: "space-between",
             alignItems: "center",
           }}
@@ -106,7 +108,7 @@ export default function TransitionsModal(item: any) {
               left: "50%",
               transform: "translate(-50%, -50%)",
               width: "70%",
-              height: "70vh",
+              height: "80vh",
               // backgroundColor: "#4C5058",
               backgroundImage: `url(${item.item.image})`,
               backgroundSize: "cover",
@@ -124,7 +126,7 @@ export default function TransitionsModal(item: any) {
             <Box
               sx={{
                 backgroundColor: "#222831bc",
-                height: "80%",
+                height: "83%",
                 width: "30%",
                 borderRadius: "0 20px 20px 0",
                 border: "2px solid white",
@@ -157,27 +159,7 @@ export default function TransitionsModal(item: any) {
                     display: item.item.link ? "block" : "none",
                     textDecoration: "none",
                   }}
-                >
-                  <Button
-                    sx={{
-                      backgroundColor: "white",
-                      fontSize: "16px",
-                      fontWeight: "bold",
-                      px: 2,
-                      pt: 1,
-                      borderRadius: "20px",
-                      color: "black",
-                      transition: "all ease-in 0.3s",
-                      "&:hover": {
-                        color: "white",
-                        boxShadow: "2px 2px 3px white",
-                        backgroundColor: "#191D24",
-                      },
-                    }}
-                  >
-                    Website
-                  </Button>
-                </Link>
+                ></Link>
                 <Link
                   target="blank"
                   href={item.item.source}

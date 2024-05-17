@@ -23,7 +23,7 @@ const Contact = () => {
         data-aos="zoom-in-up"
         data-aos-delay="400"
         sx={{
-          marginTop: { xs: "70px", md: "50px" },
+          marginTop: { xs: "70px", md: "80px", lg: "95px" },
           // backgroundColor: "red",
           // width: "100%",
           // display: 'flex',
@@ -33,30 +33,7 @@ const Contact = () => {
       >
         <Link
           target="blank"
-          href="https://api.whatsapp.com/send/?phone=82228152950&text&type=phone_number&app_absent=0"
-          sx={{
-            // backgroundColor: "white",
-            color: "#181818",
-            fontSize: { xs: "32px", md: "50px" },
-            paddingY: "10px",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            borderRadius: "5px",
-            textDecoration: "none",
-            gap: 2,
-            transition: "all ease-in 0.4s",
-            "&:hover": {
-              color: "white",
-            },
-          }}
-        >
-          <IoLogoWhatsapp />
-        </Link>
-
-        <Link
-          target="blank"
-          href="https://www.instagram.com/fzhal_a2/"
+          href="https://www.instagram.com/dimasheru_/"
           sx={{
             // backgroundColor: "white",
             color: "#181818",
@@ -79,7 +56,7 @@ const Contact = () => {
 
         <Link
           target="blank"
-          href="https://www.linkedin.com/in/faizhal-ahmad/"
+          href="https://www.linkedin.com/in/dimas-heru-pangestu/"
           sx={{
             // backgroundColor: "white",
             color: "#181818",
@@ -102,7 +79,7 @@ const Contact = () => {
 
         <Link
           target="blank"
-          href="https://github.com/FaizAmd22"
+          href="https://github.com/dimasherupangestu/"
           sx={{
             // backgroundColor: "white",
             color: "#181818",
@@ -125,7 +102,7 @@ const Contact = () => {
 
         <Link
           target="blank"
-          href="mailto:ahmadfaizhal8@gmail.com"
+          href="mailto:dimasherupangestu@gmail.com"
           sx={{
             // backgroundColor: "white",
             color: "#181818",

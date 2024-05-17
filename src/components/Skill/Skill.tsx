@@ -74,7 +74,7 @@ const Skill = () => {
                         mt: "2rem",
                         justifyContent: "center",
                         alignItems: "center",
-                        width: "10rem",
+                        width: { xs: "8.4rem", md: "10rem" },
                         height: "10rem",
                         bgcolor: "#192d3e",
                         borderRadius: "5px",
