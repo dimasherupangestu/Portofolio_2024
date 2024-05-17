@@ -1,5 +1,4 @@
 import { Box, Grid, Typography } from "@mui/material";
-import { useRef } from "react";
 import p1 from "../../assets/project01.png";
 import p2 from "../../assets/project02.png";
 import p3 from "../../assets/project03.png";
@@ -7,11 +6,6 @@ import Mobile from "./components/Mobile";
 import TransitionsModal from "./components/Modal";
 
 const Project = () => {
-  const sectionRef = useRef<any>(null);
-  const triggerRef = useRef<any>(null);
-
-  console.log(window.scrollY);
-
   const data = [
     {
       name: "Circel X",

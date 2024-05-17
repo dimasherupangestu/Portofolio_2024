@@ -1,8 +1,5 @@
 import { Box, Grid, Link, Typography } from "@mui/material";
-import React from "react";
-import Paper from "@mui/material/Paper";
 import { dataSkill } from "../../data/dataSkil";
-import { Image } from "@mui/icons-material";
 const Skill = () => {
   return (
     <>

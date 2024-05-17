@@ -1,8 +1,6 @@
 import { Box, Link, Stack } from "@mui/material";
-import { IoLogoWhatsapp } from "react-icons/io";
 import { AiFillInstagram } from "react-icons/ai";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
@@ -24,18 +22,12 @@ const Contact = () => {
         data-aos-delay="400"
         sx={{
           marginTop: { xs: "70px", md: "80px", lg: "95px" },
-          // backgroundColor: "red",
-          // width: "100%",
-          // display: 'flex',
-          // justifyContent: 'center',
-          // alignItems: 'center',
         }}
       >
         <Link
           target="blank"
           href="https://www.instagram.com/dimasheru_/"
           sx={{
-            // backgroundColor: "white",
             color: "#181818",
             fontSize: { xs: "32px", md: "50px" },
             paddingY: "10px",
@@ -58,7 +50,6 @@ const Contact = () => {
           target="blank"
           href="https://www.linkedin.com/in/dimas-heru-pangestu/"
           sx={{
-            // backgroundColor: "white",
             color: "#181818",
             fontSize: { xs: "32px", md: "50px" },
             paddingY: "10px",
@@ -81,7 +72,6 @@ const Contact = () => {
           target="blank"
           href="https://github.com/dimasherupangestu/"
           sx={{
-            // backgroundColor: "white",
             color: "#181818",
             fontSize: { xs: "32px", md: "50px" },
             paddingY: "10px",
@@ -104,7 +94,6 @@ const Contact = () => {
           target="blank"
           href="mailto:dimasherupangestu@gmail.com"
           sx={{
-            // backgroundColor: "white",
             color: "#181818",
             fontSize: { xs: "32px", md: "50px" },
             paddingY: "10px",
