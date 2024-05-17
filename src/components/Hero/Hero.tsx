@@ -142,7 +142,6 @@ const Hero = () => {
               backgroundSize: "cover",
               backgroundPosition: "center",
               // backgroundColor: "red",
-
               marginBottom: "60px",
             }}
           />

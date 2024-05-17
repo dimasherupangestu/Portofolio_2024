@@ -8,7 +8,7 @@ const About = () => {
     <Box
       //   ref={bg2}
       sx={{
-        marginTop: "50vh",
+        marginTop: "30vh",
         paddingBottom: "5vh",
         height: { xs: "auto", lg: "100vh" },
         backgroundColor: "#1a1a1a",

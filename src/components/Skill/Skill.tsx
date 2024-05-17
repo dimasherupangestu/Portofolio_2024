@@ -4,7 +4,7 @@ const Skill = () => {
   return (
     <>
       <Box
-        data-aos="fade-up"
+        data-aos="fade-down"
         width={"100%"}
         height={{ xs: "auto", md: "100vh", lg: "100vh" }}
         sx={{
@@ -16,6 +16,7 @@ const Skill = () => {
           justifyContent: "center",
           alignItems: "center",
           position: "relative",
+          paddingTop: "20px",
           zIndex: 0,
 
           // paddingTop: "150px",
