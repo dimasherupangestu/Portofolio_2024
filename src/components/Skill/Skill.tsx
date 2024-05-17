@@ -16,7 +16,7 @@ const Skill = () => {
           justifyContent: "center",
           alignItems: "center",
           position: "relative",
-          paddingTop: "20px",
+          paddingTop: "5rem",
           zIndex: 0,
 
           // paddingTop: "150px",
