@@ -65,7 +65,7 @@ const Hero = () => {
           transformOrigin: "center center",
           position: "fixed",
           width: "100%",
-          backgroundColor: "#F0ECEC",
+          backgroundColor: "#faebcd",
           // flexDirection: 'column',
           perspective: "2200px",
           opacity: windowHeight > 1700 ? 0 : 1,
@@ -75,7 +75,7 @@ const Hero = () => {
         <Box
           sx={{
             height: "60px",
-            backgroundColor: "#222831",
+            backgroundColor: "#1a1a1a",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -94,7 +94,7 @@ const Hero = () => {
             // backgroundColor: "green",
             display: "flex",
             flexDirection: "column",
-            color: "#222831",
+            color: "#1a1a1a",
             position: "relative",
             height: "100vh",
             justifyContent: "space-between",

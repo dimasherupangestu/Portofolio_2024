@@ -11,7 +11,7 @@ const Skill = () => {
           marginTop: "-0.4rem",
           paddingBottom: "4vh",
           height: { xs: "auto", lg: "100vh" },
-          backgroundColor: "#222831",
+          backgroundColor: "#1a1a1a",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
@@ -22,7 +22,7 @@ const Skill = () => {
         }}
       >
         <Box
-          bgcolor={"#222831"}
+          bgcolor={"#1a1a1a"}
           width={"100%"}
           height={"100%"}
           position={"relative"}

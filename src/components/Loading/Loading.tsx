@@ -31,6 +31,7 @@ const Loading = () => {
         width: "100%",
         height: "100vh",
         display: "flex",
+        backgroundColor: "#faebcd",
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
@@ -39,13 +40,21 @@ const Loading = () => {
       }}
     >
       <Box sx={{ display: "flex" }} ref={typographyRef}>
-        <Typography data-aos="fade-up" sx={{ fontSize: "30px" }}>
+        <Typography
+          data-aos="fade-up"
+          sx={{ fontSize: "30px", color: "#1a1a1a" }}
+        >
           Dimas Heru
         </Typography>
         <Typography
           data-aos="fade-up"
           data-aos-delay="100"
-          sx={{ fontSize: "30px", fontWeight: "bold", marginLeft: "10px" }}
+          sx={{
+            fontSize: "30px",
+            fontWeight: "bold",
+            marginLeft: "10px",
+            color: "#1a1a1a",
+          }}
         >
           Portofolio
         </Typography>

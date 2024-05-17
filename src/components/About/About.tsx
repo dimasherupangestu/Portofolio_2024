@@ -1,7 +1,6 @@
-import { Box, Typography, Button, Grid, Stack, Link } from "@mui/material";
+import { Box, Button, Grid, Link, Stack, Typography } from "@mui/material";
 import { AiFillInstagram } from "react-icons/ai";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import foto from "../../assets/about.png";
 
 const About = () => {
@@ -12,7 +11,7 @@ const About = () => {
         marginTop: "50vh",
         paddingBottom: "5vh",
         height: { xs: "auto", lg: "100vh" },
-        backgroundColor: "#222831",
+        backgroundColor: "#1a1a1a",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
