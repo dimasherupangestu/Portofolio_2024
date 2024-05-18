@@ -62,9 +62,10 @@ const Loading = () => {
       <Box
         data-aos="zoom-in"
         data-aos-delay="1700"
+        marginLeft={{ xs: "15px", lg: "0px" }}
         sx={{
           height: "60px",
-          backgroundColor: "#222831",
+          backgroundColor: "#1a1a1a",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
@@ -72,6 +73,7 @@ const Loading = () => {
           width: "60px",
           borderRadius: "50%",
           position: "fixed",
+
           // border: '5px dotted #F0ECEC',
           // boxShadow: "0px 0px 10px red",
           // zIndex: -1

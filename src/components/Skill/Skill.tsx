@@ -4,7 +4,6 @@ const Skill = () => {
   return (
     <>
       <Box
-        data-aos="fade-down"
         width={"100%"}
         height={{ xs: "auto", md: "100vh", lg: "100vh" }}
         sx={{
@@ -30,6 +29,7 @@ const Skill = () => {
         >
           <Box width={"80%"} paddingLeft={"3rem"}>
             <Typography
+              data-aos="fade-down"
               variant="h2"
               color="#fff"
               textAlign="left"
@@ -43,10 +43,11 @@ const Skill = () => {
           <Box width={"100%"} height={{ xs: "auto", lg: "100vh" }}>
             <Typography
               variant="h3"
+              data-aos="fade-down"
               color="#fff"
               fontSize={{ xs: "14px", lg: "18px" }}
-              width={{ xs: "auto", md: "80%", lg: "35rem" }}
-              paddingLeft={{ xs: "0.7rem", md: "1rem", lg: "3.5rem" }}
+              width={{ xs: "70%", md: "80%", lg: "35rem" }}
+              paddingLeft={{ xs: "4rem", md: "1rem", lg: "3.5rem" }}
               marginTop={"0.5rem"}
             >
               I am someone who enjoys seeking challenges. Here are a few skills
