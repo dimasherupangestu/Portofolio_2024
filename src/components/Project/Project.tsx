@@ -59,7 +59,7 @@ const Project = () => {
           backgroundColor: "#1a1a1a",
           mx: "auto",
           marginTop: "-10px",
-          paddingBottom: "40vh",
+          paddingBottom: "70vh",
         }}>
         <Box
           sx={{

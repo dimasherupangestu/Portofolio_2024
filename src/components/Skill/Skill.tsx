@@ -5,17 +5,17 @@ const Skill = () => {
     <>
       <Box
         width={"100%"}
-        height={{ xs: "auto", md: "100vh", lg: "auto" }}
+        height={{ xs: "auto", md: "100vh", lg: "100vh" }}
         sx={{
           marginTop: "-0.4rem",
-          paddingBottom: "5vh",
+          paddingBottom: "7vh",
           height: { xs: "auto", lg: "100vh" },
           backgroundColor: "#1a1a1a",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
           position: "relative",
-          paddingTop: "5rem",
+
           zIndex: 0,
 
           // paddingTop: "150px",

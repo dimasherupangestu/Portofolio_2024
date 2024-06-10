@@ -57,17 +57,17 @@ const About = () => {
             data-aos="fade-left"
             data-aos-delay="100"
             sx={{ marginTop: "30px", fontSize: "16px" }}>
-            I am a 21-year-old Frontend Developer based in Bogor, Indonesia. As
-            a web developer, I have skills in building responsive and engaging
-            user interfaces using various modern technologies such as HTML5,
-            CSS3, and JavaScript (ES6+). I have experience in developing web
-            applications using frameworks like React.js, React Native and
-            Next.js. Additionally, I am proficient in using various tools and
-            frameworks such as Bootstrap, TailwindCSS, Chakra-UI, and
-            Material-UI to create attractive and functional designs. I have
-            worked on projects both individually and as part of a team. I
-            believe that good collaboration with interdisciplinary teams is the
-            key to success in every project.
+            I am a 21-year-old Full Stack Developer based in Bogor, Indonesia.
+            As a web developer, I have skills in building responsive and
+            engaging user interfaces using various modern technologies such as
+            HTML5, CSS3, and JavaScript (ES6+). I have experience in developing
+            web applications using frameworks like React.js, React Native and
+            Next.js, Node js, Express.js. Additionally, I am proficient in using
+            various tools and frameworks such as Bootstrap, TailwindCSS,
+            Chakra-UI, and Material-UI to create attractive and functional
+            designs. I have worked on projects both individually and as part of
+            a team. I believe that good collaboration with interdisciplinary
+            teams is the key to success in every project.
           </Typography>
 
           <Stack
