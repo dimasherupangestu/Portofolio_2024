@@ -5,10 +5,10 @@ const Skill = () => {
     <>
       <Box
         width={"100%"}
-        height={{ xs: "auto", md: "100vh", lg: "100vh" }}
+        height={{ xs: "auto", md: "100vh", lg: "auto" }}
         sx={{
           marginTop: "-0.4rem",
-          paddingBottom: "4vh",
+          paddingBottom: "5vh",
           height: { xs: "auto", lg: "100vh" },
           backgroundColor: "#1a1a1a",
           display: "flex",
@@ -19,14 +19,12 @@ const Skill = () => {
           zIndex: 0,
 
           // paddingTop: "150px",
-        }}
-      >
+        }}>
         <Box
           bgcolor={"#1a1a1a"}
           width={"100%"}
           height={"100%"}
-          position={"relative"}
-        >
+          position={"relative"}>
           <Box width={"80%"} paddingLeft={"3rem"}>
             <Typography
               data-aos="fade-down"
@@ -35,8 +33,7 @@ const Skill = () => {
               textAlign="left"
               sx={{
                 fontSize: { xs: "30px", lg: "45px" },
-              }}
-            >
+              }}>
               🎯Specialized Skills
             </Typography>
           </Box>
@@ -48,8 +45,7 @@ const Skill = () => {
               fontSize={{ xs: "14px", lg: "18px" }}
               width={{ xs: "70%", md: "80%", lg: "35rem" }}
               paddingLeft={{ xs: "4rem", md: "1rem", lg: "3.5rem" }}
-              marginTop={"0.5rem"}
-            >
+              marginTop={"0.5rem"}>
               I am someone who enjoys seeking challenges. Here are a few skills
               that I have developed and honed.
             </Typography>
@@ -58,10 +54,13 @@ const Skill = () => {
               <Grid
                 data-aos="fade-right"
                 container
-                ml={5}
+                sx={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
                 spacing={{ xs: 2, md: 3 }}
-                columns={{ xs: 4, sm: 8, md: 12 }}
-              >
+                columns={{ xs: 4, sm: 8, md: 8, lg: 12 }}>
                 {dataSkill.map((item: any, index: number) => (
                   <Grid xs={2} sm={2.3} md={2} key={index} spacing={8}>
                     <Link
@@ -84,8 +83,7 @@ const Skill = () => {
                           boxShadow: "0px 1px 5px 0px white",
                           transform: "scale(1.1)",
                         },
-                      }}
-                    >
+                      }}>
                       <Box
                         width={"10rem"}
                         height={"10rem"}
@@ -93,18 +91,16 @@ const Skill = () => {
                         display={"flex"}
                         borderRadius={"10px"}
                         justifyContent={"center"}
-                        alignItems={"center"}
-                      >
+                        alignItems={"center"}>
                         <Box
                           component="img"
                           src={item.image}
                           alt={item.name}
                           sx={{
-                            width: "5rem",
+                            width: "5.5rem",
                             height: "5rem",
                             objectFit: "cover",
-                          }}
-                        ></Box>
+                          }}></Box>
                       </Box>
                     </Link>
                   </Grid>

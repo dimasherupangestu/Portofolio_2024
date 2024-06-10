@@ -70,8 +70,7 @@ const Hero = () => {
           perspective: "2200px",
           opacity: windowHeight > 1700 ? 0 : 1,
           // zIndex: 99
-        }}
-      >
+        }}>
         <Box
           sx={{
             height: "60px",
@@ -100,21 +99,18 @@ const Hero = () => {
             justifyContent: "space-between",
             alignItems: "center",
             // marginTop: '200px'
-          }}
-        >
+          }}>
           <Box
             sx={{
               marginTop: { xs: "200px", md: "150px" },
               textAlign: "center",
             }}
-            data-aos="zoom-in-down"
-          >
+            data-aos="zoom-in-down">
             <Typography
               sx={{
                 fontSize: { xs: "20px", md: "60px", lg: "70px" },
                 marginTop: "-55px",
-              }}
-            >
+              }}>
               Hello! I'm Dimas Heru Pangestu
             </Typography>
 
@@ -126,9 +122,8 @@ const Hero = () => {
                 padding: 0,
                 marginTop: { xs: "0px", md: "-20px" },
                 // marginBottom: "20px",
-              }}
-            >
-              Frontend Developer
+              }}>
+              Full stack Developer
             </Typography>
           </Box>
 
@@ -155,8 +150,7 @@ const Hero = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-        }}
-      >
+        }}>
         {/* <Typography variant="h1" component="h2">
               Content 1
             </Typography> */}

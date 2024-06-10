@@ -23,6 +23,11 @@ export const dataSkill = [
     link: "https://reactnative.dev/",
   },
   {
+    name: "Zustand",
+    image: foto6,
+    link: "https://nextjs.org/",
+  },
+  {
     name: "Javascipt",
     image: foto3,
     link: "https://www.javascript.com/",
@@ -37,11 +42,7 @@ export const dataSkill = [
     image: foto5,
     link: "https://redux-toolkit.js.org/",
   },
-  {
-    name: "Zustand",
-    image: foto6,
-    link: "https://zustand-demo.pmnd.rs/",
-  },
+
   {
     name: "Node Js",
     image: foto7,

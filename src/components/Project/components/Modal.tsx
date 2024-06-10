@@ -18,8 +18,7 @@ export default function TransitionsModal(item: any) {
     <>
       <Button
         onClick={handleOpen}
-        sx={{ color: "white", "&:hover": { backgroundColor: "#222831" } }}
-      >
+        sx={{ color: "white", "&:hover": { backgroundColor: "#222831" } }}>
         <Box
           data-aos="zoom-in-down"
           data-aos-delay="400"
@@ -30,10 +29,10 @@ export default function TransitionsModal(item: any) {
             display: "flex",
             flexDirection: "column",
             mx: "auto",
+            mt: "2rem",
             justifyContent: "space-between",
             alignItems: "center",
-          }}
-        >
+          }}>
           <Box
             sx={{
               width: "90%",
@@ -54,8 +53,7 @@ export default function TransitionsModal(item: any) {
                 boxShadow: "0px 0px 150px #FFC12C",
                 // border: 'none'
               },
-            }}
-          >
+            }}>
             <Box
               sx={{
                 width: "90%",
@@ -76,8 +74,7 @@ export default function TransitionsModal(item: any) {
                 textAlign: "center",
                 fontWeight: "semibold",
                 textTransform: "capitalize",
-              }}
-            >
+              }}>
               {item.item.name}
             </Typography>
             <Box sx={{ width: "78%", margin: "auto" }}>
@@ -98,8 +95,7 @@ export default function TransitionsModal(item: any) {
           backdrop: {
             timeout: 500,
           },
-        }}
-      >
+        }}>
         <Fade in={open}>
           <Box
             sx={{
@@ -121,8 +117,7 @@ export default function TransitionsModal(item: any) {
               boxShadow: 24,
               gap: 8,
               // p: 4,
-            }}
-          >
+            }}>
             <Box
               sx={{
                 backgroundColor: "#222831bc",
@@ -135,13 +130,11 @@ export default function TransitionsModal(item: any) {
                 display: "flex",
                 justifyContent: "center",
                 flexDirection: "column",
-              }}
-            >
+              }}>
               <Typography
                 id="transition-modal-title"
                 variant="h3"
-                component="h1"
-              >
+                component="h1">
                 {item.item.name}
               </Typography>
 
@@ -150,21 +143,18 @@ export default function TransitionsModal(item: any) {
               </Typography>
 
               <Box
-                sx={{ display: "flex", justifyContent: "end", gap: 3, mt: 4 }}
-              >
+                sx={{ display: "flex", justifyContent: "end", gap: 3, mt: 4 }}>
                 <Link
                   target="blank"
                   href={item.item.link}
                   sx={{
                     display: item.item.link ? "block" : "none",
                     textDecoration: "none",
-                  }}
-                ></Link>
+                  }}></Link>
                 <Link
                   target="blank"
                   href={item.item.source}
-                  sx={{ display: "flex", textDecoration: "none" }}
-                >
+                  sx={{ display: "flex", textDecoration: "none" }}>
                   <Button
                     sx={{
                       backgroundColor: "white",
@@ -180,8 +170,7 @@ export default function TransitionsModal(item: any) {
                         boxShadow: "2px 2px 3px white",
                         backgroundColor: "#191D24",
                       },
-                    }}
-                  >
+                    }}>
                     Source Code
                   </Button>
                 </Link>

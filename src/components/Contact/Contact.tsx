@@ -13,8 +13,7 @@ const Contact = () => {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-      }}
-    >
+      }}>
       <Stack
         direction="row"
         spacing={{ xs: 5, md: 10 }}
@@ -22,8 +21,7 @@ const Contact = () => {
         data-aos-delay="400"
         sx={{
           marginTop: { xs: "70px", md: "80px", lg: "95px" },
-        }}
-      >
+        }}>
         <Link
           target="blank"
           href="https://www.instagram.com/dimasheru_/"
@@ -41,8 +39,7 @@ const Contact = () => {
             "&:hover": {
               color: "white",
             },
-          }}
-        >
+          }}>
           <AiFillInstagram />
         </Link>
 
@@ -63,8 +60,7 @@ const Contact = () => {
             "&:hover": {
               color: "white",
             },
-          }}
-        >
+          }}>
           <FaLinkedin />
         </Link>
 
@@ -85,8 +81,7 @@ const Contact = () => {
             "&:hover": {
               color: "white",
             },
-          }}
-        >
+          }}>
           <FaGithub />
         </Link>
 
@@ -107,8 +102,7 @@ const Contact = () => {
             "&:hover": {
               color: "white",
             },
-          }}
-        >
+          }}>
           <MdEmail />
         </Link>
       </Stack>

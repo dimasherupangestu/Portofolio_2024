@@ -19,8 +19,7 @@ const About = () => {
         zIndex: 0,
         overflowX: "hidden",
         // paddingTop: "150px",
-      }}
-    >
+      }}>
       <Grid
         container
         spacing={2}
@@ -29,8 +28,7 @@ const About = () => {
           width: "80%",
           margin: "auto",
           // backgroundColor: "red",
-        }}
-      >
+        }}>
         <Grid
           item
           xs={12}
@@ -43,8 +41,7 @@ const About = () => {
             textAlign: "center",
             justifyContent: "center",
             order: { xs: 2, md: 1 },
-          }}
-        >
+          }}>
           <Typography
             data-aos="fade-up"
             data-aos-delay="100"
@@ -53,15 +50,13 @@ const About = () => {
             sx={{
               marginTop: { xs: "50px", md: "0px" },
               fontSize: { xs: "50px", lg: "65px" },
-            }}
-          >
+            }}>
             About Me
           </Typography>
           <Typography
             data-aos="fade-left"
             data-aos-delay="100"
-            sx={{ marginTop: "30px", fontSize: "16px" }}
-          >
+            sx={{ marginTop: "30px", fontSize: "16px" }}>
             I am a 21-year-old Frontend Developer based in Bogor, Indonesia. As
             a web developer, I have skills in building responsive and engaging
             user interfaces using various modern technologies such as HTML5,
@@ -80,8 +75,7 @@ const About = () => {
             spacing={2}
             data-aos="fade-down"
             data-aos-delay="100"
-            sx={{ marginTop: "50px" }}
-          >
+            sx={{ marginTop: "50px" }}>
             <Link
               target="blank"
               href="https://www.instagram.com/dimasheru_/"
@@ -101,8 +95,7 @@ const About = () => {
                   fontSize: "30px",
                   boxShadow: "1px 2px 2px white",
                 },
-              }}
-            >
+              }}>
               <AiFillInstagram />
             </Link>
 
@@ -125,8 +118,7 @@ const About = () => {
                   fontSize: "28px",
                   boxShadow: "1px 2px 2px white",
                 },
-              }}
-            >
+              }}>
               <FaLinkedin />
             </Link>
 
@@ -149,8 +141,7 @@ const About = () => {
                   fontSize: "28px",
                   boxShadow: "1px 2px 2px white",
                 },
-              }}
-            >
+              }}>
               <FaGithub />
             </Link>
           </Stack>
@@ -166,8 +157,7 @@ const About = () => {
             justifyContent: "center",
             alignItems: "center",
             order: { xs: 1, md: 2 },
-          }}
-        >
+          }}>
           <Box
             data-aos="fade-down"
             data-aos-delay="250"
@@ -185,16 +175,14 @@ const About = () => {
           <Box
             data-aos="fade-down"
             data-aos-delay="250"
-            sx={{ width: { xs: "90%", md: "40%" } }}
-          >
+            sx={{ width: { xs: "90%", md: "40%" } }}>
             <Link
-              href="https://drive.google.com/file/d/1KfMPR3WBF5ajBUUtV7NvROWI4x1f9T8s/view?usp=sharing"
+              href="https://drive.google.com/file/d/1lm97IRebeYbIogpFHK8cobr_fAyK2g5m/view?usp=sharing"
               target="blank"
               sx={{
                 width: "full",
                 // px: "90px",
-              }}
-            >
+              }}>
               <Button
                 sx={{
                   width: "100%",
@@ -214,8 +202,7 @@ const About = () => {
                     // boxShadow: "1px 2px 2px white",
                     border: "2px solid white",
                   },
-                }}
-              >
+                }}>
                 Read the CV
               </Button>
             </Link>

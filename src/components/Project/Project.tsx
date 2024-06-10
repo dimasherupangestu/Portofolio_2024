@@ -49,7 +49,7 @@ const Project = () => {
     <>
       <Box
         sx={{
-          height: "100vh",
+          height: { xs: "auto", md: "auto", lg: "100vh" },
           color: "white",
           position: "relative",
           display: { xs: "none", md: "flex" },
@@ -60,19 +60,18 @@ const Project = () => {
           mx: "auto",
           marginTop: "-10px",
           paddingBottom: "40vh",
-        }}
-      >
+        }}>
         <Box
           sx={{
             height: "auto",
             width: "100%",
             mx: "auto",
+            pt: "40vh",
             paddingLeft: { md: "0%", lg: "24px" },
             posititon: "relative",
             gap: "2.2%",
             // backgroundColor: "red",
-          }}
-        >
+          }}>
           <Typography
             data-aos="fade-up"
             // data-aos-delay="100"
@@ -84,8 +83,7 @@ const Project = () => {
               // fontWeight: "bold",
               marginBottom: "20px",
               margin: "auto",
-            }}
-          >
+            }}>
             What I've Done
           </Typography>
           {data.map((item: any, index: number) => (
@@ -106,10 +104,9 @@ const Project = () => {
           overflowX: "hidden",
           backgroundColor: "#1a1a1a",
           marginTop: "-10px",
-          pt: "50vh",
+          pt: "70vh",
           paddingBottom: "40vh",
-        }}
-      >
+        }}>
         <Typography
           data-aos="fade-up"
           // data-aos-delay="100"
@@ -121,10 +118,10 @@ const Project = () => {
             // fontWeight: "bold",
             marginBottom: "20px",
             margin: "auto",
+
             pb: "50px",
             fontSize: { xs: "50px", lg: "65px" },
-          }}
-        >
+          }}>
           What I've Done
         </Typography>
         <Grid container sx={{}}>
@@ -133,8 +130,7 @@ const Project = () => {
               key={index}
               xs={6}
               spacing={2}
-              sx={{ width: "100%", margin: "auto" }}
-            >
+              sx={{ width: "100%", margin: "auto" }}>
               <Mobile item={item} />
             </Grid>
           ))}
