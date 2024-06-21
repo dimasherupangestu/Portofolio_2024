@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 
 const Mobile = (item: any) => {
+  console.log("tes", item);
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -27,8 +28,7 @@ const Mobile = (item: any) => {
           width: "100%",
           //   margin: '10px',
           padding: "20px",
-        }}
-      >
+        }}>
         <Box
           sx={{
             width: "100%",
@@ -39,8 +39,7 @@ const Mobile = (item: any) => {
             "-webkit-backdrop-filter": "blur(5.6px)",
             transition: "all ease-in-out 0.3s",
             paddingY: "20px",
-          }}
-        >
+          }}>
           <Typography
             variant="h4"
             sx={{
@@ -49,8 +48,7 @@ const Mobile = (item: any) => {
               textTransform: "capitalize",
               fontSize: "18px",
               pb: "13px",
-            }}
-          >
+            }}>
             {item.item.name}
           </Typography>
           <Box
@@ -81,8 +79,7 @@ const Mobile = (item: any) => {
           backdrop: {
             timeout: 500,
           },
-        }}
-      >
+        }}>
         <Fade in={open}>
           <Box
             sx={{
@@ -104,8 +101,7 @@ const Mobile = (item: any) => {
               borderRadius: "20px",
               //   gap: 8,
               // p: 4,
-            }}
-          >
+            }}>
             <Box
               sx={{
                 backgroundColor: "#222831",
@@ -119,14 +115,12 @@ const Mobile = (item: any) => {
                 justifyContent: "center",
                 flexDirection: "column",
                 order: 2,
-              }}
-            >
+              }}>
               <Typography
                 id="transition-modal-title"
                 variant="h3"
                 component="h1"
-                sx={{ fontSize: "24px" }}
-              >
+                sx={{ fontSize: "24px" }}>
                 {item.item.name}
               </Typography>
 
@@ -135,16 +129,14 @@ const Mobile = (item: any) => {
               </Typography>
 
               <Box
-                sx={{ display: "flex", justifyContent: "end", gap: 3, mt: 4 }}
-              >
+                sx={{ display: "flex", justifyContent: "end", gap: 3, mt: 4 }}>
                 <Link
                   target="blank"
-                  href={item.item.link}
+                  href={item.item.web}
                   sx={{
-                    display: item.item.link ? "block" : "none",
+                    display: item.item.web ? "block" : "none",
                     textDecoration: "none",
-                  }}
-                >
+                  }}>
                   <Button
                     sx={{
                       backgroundColor: "white",
@@ -160,16 +152,14 @@ const Mobile = (item: any) => {
                         boxShadow: "2px 2px 3px white",
                         backgroundColor: "#191D24",
                       },
-                    }}
-                  >
+                    }}>
                     Website
                   </Button>
                 </Link>
                 <Link
                   target="blank"
                   href={item.item.source}
-                  sx={{ display: "flex", textDecoration: "none" }}
-                >
+                  sx={{ display: "flex", textDecoration: "none" }}>
                   <Button
                     sx={{
                       backgroundColor: "white",
@@ -185,8 +175,7 @@ const Mobile = (item: any) => {
                         boxShadow: "2px 2px 3px white",
                         backgroundColor: "#191D24",
                       },
-                    }}
-                  >
+                    }}>
                     Source Code
                   </Button>
                 </Link>

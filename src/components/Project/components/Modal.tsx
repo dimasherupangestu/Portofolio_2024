@@ -99,7 +99,7 @@ export default function TransitionsModal(item: any) {
         <Fade in={open}>
           <Box
             sx={{
-              position: "absolute" as "absolute",
+              position: "absolute",
               top: "50%",
               left: "50%",
               transform: "translate(-50%, -50%)",
@@ -144,13 +144,31 @@ export default function TransitionsModal(item: any) {
 
               <Box
                 sx={{ display: "flex", justifyContent: "end", gap: 3, mt: 4 }}>
-                <Link
-                  target="blank"
-                  href={item.item.link}
-                  sx={{
-                    display: item.item.link ? "block" : "none",
-                    textDecoration: "none",
-                  }}></Link>
+                {item?.item.web && (
+                  <Link
+                    target="blank"
+                    sx={{ display: "flex", textDecoration: "none" }}
+                    href={item.item.web}>
+                    <Button
+                      sx={{
+                        backgroundColor: "white",
+                        fontWeight: "bold",
+                        px: 2,
+                        pt: 1,
+                        fontSize: "15px",
+                        borderRadius: "20px",
+                        color: "black",
+                        transition: "all ease-in 0.3s",
+                        "&:hover": {
+                          color: "white",
+                          boxShadow: "2px 2px 3px white",
+                          backgroundColor: "#191D24",
+                        },
+                      }}>
+                      website
+                    </Button>
+                  </Link>
+                )}
                 <Link
                   target="blank"
                   href={item.item.source}
@@ -158,7 +176,7 @@ export default function TransitionsModal(item: any) {
                   <Button
                     sx={{
                       backgroundColor: "white",
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "bold",
                       px: 2,
                       pt: 1,

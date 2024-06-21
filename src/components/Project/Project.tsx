@@ -2,6 +2,8 @@ import { Box, Grid, Typography } from "@mui/material";
 import p1 from "../../assets/project01.png";
 import p2 from "../../assets/project02.png";
 import p3 from "../../assets/project03.png";
+import p4 from "../../assets/project04.png";
+
 import Mobile from "./components/Mobile";
 import TransitionsModal from "./components/Modal";
 
@@ -20,6 +22,16 @@ const Project = () => {
       search for users, and share thread links.
       unfollow other users, search for users, and
       various other features`,
+    },
+    {
+      name: "NoFlix",
+      image: p4,
+      source: "https://github.com/dimasherupangestu/netflixClone",
+      web: "https://noflix-clone.vercel.app",
+      desc: `NoFlix is a movie website inspired by Netflix.
+      However, the videos provided are
+      a collection of trailers for the corresponding movie
+      movie. Some of its features include: login & register using (Email, Google, Github), add favorite movies, view movies according to categories.`,
     },
 
     {

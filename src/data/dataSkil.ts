@@ -23,7 +23,7 @@ export const dataSkill = [
     link: "https://reactnative.dev/",
   },
   {
-    name: "Zustand",
+    name: "Next JS",
     image: foto6,
     link: "https://nextjs.org/",
   },
