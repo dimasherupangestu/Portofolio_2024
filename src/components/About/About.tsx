@@ -177,7 +177,7 @@ const About = () => {
             data-aos-delay="250"
             sx={{ width: { xs: "90%", md: "40%" } }}>
             <Link
-              href="https://drive.google.com/file/d/1lm97IRebeYbIogpFHK8cobr_fAyK2g5m/view?usp=sharing"
+              href="https://drive.google.com/file/d/1iBBYVxVY4I3MsSA798GoT8eyN1YN7qra/view?usp=sharing"
               target="blank"
               sx={{
                 width: "full",
