@@ -3,12 +3,28 @@ import p1 from "../../assets/project01.png";
 import p2 from "../../assets/project02.png";
 import p3 from "../../assets/project03.png";
 import p4 from "../../assets/project04.png";
+import p6 from "../../assets/project06.png";
+import p5 from "../../assets/project05.jpg";
 
 import Mobile from "./components/Mobile";
 import TransitionsModal from "./components/Modal";
 
 const Project = () => {
   const data = [
+    {
+      name: "HiddenGame",
+      image: p5,
+      // source: "",
+      web: "https://hiddengame.id/",
+      desc: "A gaming top-up website, a trusted gaming jockey that provides a variety of products, services and payment methods to meet the needs of gamers. The platform is designed to provide a fast, secure, and affordable experience. With automated system integration, Hiddengame.id ensures the convenience and security of user transactions.",
+    },
+    {
+      name: "PointGo",
+      image: p6,
+      // source: "",
+      web: "https://pointgo.id/",
+      desc: "Webiste Top up your favorite games & use game jockey services at POINTGO! There are various products, services & payments that can be used. 24-hour CS service, automated process, safe, and affordable.",
+    },
     {
       name: "Circel X",
       image: p1,
@@ -23,6 +39,7 @@ const Project = () => {
       unfollow other users, search for users, and
       various other features`,
     },
+    
     {
       name: "NoFlix",
       image: p4,
@@ -51,8 +68,10 @@ const Project = () => {
       image: p3,
       source: "https://github.com/aryaprdni/e-commerce-tegs-store",
       link: "",
-      desc: "Tags Store is an E-commerce website that can allow users to buy clothes such as, men's clothing, children's clothing and Admin to manage all things such as users, products, and notifications, but sorry for this project is still in development.",
+      desc: "Tags Store is an E-commerce website that can allow users to buy clothes such as, men's clothing, children's clothing or women's clothing, and users can also choose shipping services and then choose a payment method using Midtrans.",
     },
+
+   
   ];
 
   // Animate project cards
@@ -71,14 +90,15 @@ const Project = () => {
           backgroundColor: "#1a1a1a",
           mx: "auto",
           marginTop: "-10px",
-          paddingBottom: "70vh",
+          paddingTop: { md: "20vh", lg: "40vh" },
+          paddingBottom: "80vh",
         }}>
         <Box
           sx={{
             height: "auto",
             width: "100%",
             mx: "auto",
-            pt: "40vh",
+            pt: {md:"50vh", lg:"70vh"},
             paddingLeft: { md: "0%", lg: "24px" },
             posititon: "relative",
             gap: "2.2%",
@@ -98,9 +118,16 @@ const Project = () => {
             }}>
             What I've Done
           </Typography>
+          <Box
+          sx={{
+            width: "100%",
+            // backgroundColor: "red",
+          }}
+          >
           {data.map((item: any, index: number) => (
             <TransitionsModal item={item} key={index} />
           ))}
+          </Box>
         </Box>
       </Box>
 
@@ -116,7 +143,7 @@ const Project = () => {
           overflowX: "hidden",
           backgroundColor: "#1a1a1a",
           marginTop: "-10px",
-          pt: "70vh",
+          pt: { md: "25vh", lg: "40vh" },
           paddingBottom: "40vh",
         }}>
         <Typography

@@ -24,7 +24,7 @@ export default function TransitionsModal(item: any) {
           data-aos-delay="400"
           // className="project-card"
           sx={{
-            width: "26rem",
+            width: "24rem",
             height: "90%",
             display: "flex",
             flexDirection: "column",
@@ -143,7 +143,7 @@ export default function TransitionsModal(item: any) {
               </Typography>
 
               <Box
-                sx={{ display: "flex", justifyContent: "end", gap: 3, mt: 4 }}>
+                sx={{ display: "flex", justifyContent: "end", gap: 3, mt: 1 }}>
                 {item?.item.web && (
                   <Link
                     target="blank"
@@ -169,7 +169,8 @@ export default function TransitionsModal(item: any) {
                     </Button>
                   </Link>
                 )}
-                <Link
+                 {item?.item.source && (
+                  <Link
                   target="blank"
                   href={item.item.source}
                   sx={{ display: "flex", textDecoration: "none" }}>
@@ -192,6 +193,8 @@ export default function TransitionsModal(item: any) {
                     Source Code
                   </Button>
                 </Link>
+                )}
+                
               </Box>
             </Box>
           </Box>

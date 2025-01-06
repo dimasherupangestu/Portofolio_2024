@@ -8,7 +8,7 @@ const About = () => {
     <Box
       //   ref={bg2}
       sx={{
-        marginTop: "30vh",
+        marginTop: "20vh",
         paddingBottom: "5vh",
         height: { xs: "auto", lg: "100vh" },
         backgroundColor: "#1a1a1a",
@@ -57,17 +57,8 @@ const About = () => {
             data-aos="fade-left"
             data-aos-delay="100"
             sx={{ marginTop: "30px", fontSize: "16px" }}>
-            I am a 21-year-old Full Stack Developer based in Bogor, Indonesia.
-            As a web developer, I have skills in building responsive and
-            engaging user interfaces using various modern technologies such as
-            HTML5, CSS3, and JavaScript (ES6+). I have experience in developing
-            web applications using frameworks like React.js, React Native and
-            Next.js, Node js, Express.js. Additionally, I am proficient in using
-            various tools and frameworks such as Bootstrap, TailwindCSS,
-            Chakra-UI, and Material-UI to create attractive and functional
-            designs. I have worked on projects both individually and as part of
-            a team. I believe that good collaboration with interdisciplinary
-            teams is the key to success in every project.
+            I am a 22-year-old Full Stack Developer based in Bogor, Indonesia.I am a Full Stack Developer with experience in building websites and applications. On the front end, I use JavaScript and PHP with tools like ReactJS, React Native, and Next.js to create responsive and interactive interfaces. I also work with frameworks like Bootstrap, Tailwind CSS, and Chakra UI to make designs more user-friendly.
+            On the back end, I develop and maintain server-side systems using Node.js, Laravel, and CodeIgniter 4. 
           </Typography>
 
           <Stack
@@ -177,7 +168,7 @@ const About = () => {
             data-aos-delay="250"
             sx={{ width: { xs: "90%", md: "40%" } }}>
             <Link
-              href="https://drive.google.com/file/d/1iBBYVxVY4I3MsSA798GoT8eyN1YN7qra/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Wt6MrSLlW_NNUccyL88znKToOvmE7EmR/view?usp=sharing"
               target="blank"
               sx={{
                 width: "full",

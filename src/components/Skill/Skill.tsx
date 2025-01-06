@@ -8,7 +8,7 @@ const Skill = () => {
         height={{ xs: "auto", md: "100vh", lg: "100vh" }}
         sx={{
           marginTop: "-0.4rem",
-          paddingBottom: "7vh",
+          paddingBottom: "40vh",
           height: { xs: "auto", lg: "100vh" },
           backgroundColor: "#1a1a1a",
           display: "flex",
@@ -58,6 +58,7 @@ const Skill = () => {
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
+                  
                 }}
                 spacing={{ xs: 2, md: 3 }}
                 columns={{ xs: 4, sm: 8, md: 8, lg: 12 }}>
@@ -74,6 +75,7 @@ const Skill = () => {
                         alignItems: "center",
                         width: { xs: "8.4rem", md: "10rem" },
                         height: "10rem",
+                        
                         bgcolor: "#192d3e",
                         borderRadius: "5px",
                         overflow: "hidden",
@@ -97,9 +99,10 @@ const Skill = () => {
                           src={item.image}
                           alt={item.name}
                           sx={{
-                            width: "5.5rem",
-                            height: "5rem",
-                            objectFit: "cover",
+                            width: "8rem",
+                            height: "6rem",
+                            // bgcolor: "red",
+                            objectFit: "contain",
                           }}></Box>
                       </Box>
                     </Link>

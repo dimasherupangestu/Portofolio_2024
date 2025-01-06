@@ -10,8 +10,26 @@ import foto9 from "../assets/icon/icon9.png";
 import foto10 from "../assets/icon/icon10.png";
 import foto11 from "../assets/icon/icon11.png";
 import foto12 from "../assets/icon/icon12.png";
-
+import foto14 from "../assets/icon/icon13.png";
+import foto15 from "../assets/icon/icon14.png";
+import foto16 from "../assets/icon/icon15.png";
+import foto13 from "../assets/icon/php.png";
 export const dataSkill = [
+  {
+    name: "Javascipt",
+    image: foto3,
+    link: "https://www.javascript.com/",
+  },
+  {
+    name: "Typescript",
+    image: foto4,
+    link: "https://www.typescriptlang.org/",
+  },
+  {
+    name: "Php",
+    image: foto13,
+    link: "https://www.php.net/",
+  },
   {
     name: "React",
     image: foto1,
@@ -28,15 +46,17 @@ export const dataSkill = [
     link: "https://nextjs.org/",
   },
   {
-    name: "Javascipt",
-    image: foto3,
-    link: "https://www.javascript.com/",
+    name: "Codeigniter 4",
+    image: foto14,
+    link: "https://codeigniter.com/",
   },
+
   {
-    name: "Typescript",
-    image: foto4,
-    link: "https://www.typescriptlang.org/",
+    name: "Laravel",
+    image: foto15,
+    link: "https://laravel.com/",
   },
+  
   {
     name: "Redux",
     image: foto5,
@@ -72,5 +92,11 @@ export const dataSkill = [
     name: "PosgreSQL",
     image: foto12,
     link: "https://www.postgresql.org/",
+  },
+
+  {
+    name: "MySQL",
+    image: foto16,
+    link: "https://www.mysql.com/",
   },
 ];

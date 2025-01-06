@@ -108,15 +108,15 @@ const Hero = () => {
             data-aos="zoom-in-down">
             <Typography
               sx={{
-                fontSize: { xs: "20px", md: "60px", lg: "70px" },
-                marginTop: "-55px",
+                fontSize: { xs: "30px", md: "60px", lg: "66px" },
+                marginTop: "-6rem",
               }}>
               Hello! I'm Dimas Heru Pangestu
             </Typography>
 
             <Typography
               sx={{
-                fontSize: { xs: "30px", md: "60px", lg: "70px" },
+                fontSize: { xs: "35px", md: "60px", lg: "66px" },
                 fontWeight: "bold",
                 // backgroundColor: "red",
                 padding: 0,
