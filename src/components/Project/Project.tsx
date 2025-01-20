@@ -66,7 +66,7 @@ const Project = () => {
     {
       name: "Tags Store",
       image: p3,
-      source: "https://github.com/aryaprdni/e-commerce-tegs-store",
+      source: "https://github.com/dimasherupangestu/e-commerce-tegs-store",
       link: "",
       desc: "Tags Store is an E-commerce website that can allow users to buy clothes such as, men's clothing, children's clothing or women's clothing, and users can also choose shipping services and then choose a payment method using Midtrans.",
     },
